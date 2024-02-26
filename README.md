@@ -6,3 +6,5 @@ To install open a terminal and run the following command.
 ```bash
 cd ~/ && wget https://raw.githubusercontent.com/HttpAnimation/EndVI/main/install.bash && chmod +x install.bash && bash install.bash
 ```
+
+## Installing for git
