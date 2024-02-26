@@ -1,0 +1,13 @@
+<% include partials/header %>
+<main>
+  <h2>Videos</h2>
+  <% videos.forEach(video => { %>
+    <div class="video">
+      <video controls>
+        <source src="<%= video.path %>" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p><%= video.name %></p>
+    </div>
+  <% }); %>
+</main>
