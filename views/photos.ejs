@@ -1,0 +1,10 @@
+<% include partials/header %>
+<main>
+  <h2>Photos</h2>
+  <% photos.forEach(photo => { %>
+    <div class="photo">
+      <img src="<%= photo.path %>" alt="<%= photo.name %>">
+      <p><%= photo.name %></p>
+    </div>
+  <% }); %>
+</main>
