@@ -10,4 +10,5 @@ cd ~/ && wget https://raw.githubusercontent.com/HttpAnimation/EndVI/main/install
 ## Installing for git
 This is only for editing the source code.
 ```bash
+wget https://raw.githubusercontent.com/HttpAnimation/EndVI/main/Basher.bash && chmod +x install.bash && bash install.bash
 ```
